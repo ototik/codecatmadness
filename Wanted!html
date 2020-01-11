@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Gandalf CSS task</title>
+</head> 
+<body>
+    <div class="box">
+        <a href="gandalf"><img src="http://images.innoveduc.fr/integration_gandalf.png" alt="wizard" width=400px>
+    	
+        <div class="text">
+            <h2>Reward <span>1000</span> gold coins</h2>
+        </div>
+
+        <div class="name">
+            <h1>Gandalf</h1></div>
+    </div>
+</body>
+</html>                            
