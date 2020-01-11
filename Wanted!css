@@ -1,0 +1,42 @@
+    .box{
+        position: relative;
+        display: inline-block; /* Make the width of box same as image */
+        opacity:0.6;
+        transition:0.3s;
+    }
+
+    .box:hover {opacity:1}
+
+    .text:hover{
+        display:none;
+    }
+    .box .text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;        
+        text-align: center;
+        top: 60%; /* Adjust this value to move the positioned div up and down */
+        background: rgba(255, 255, 255, 0.52);
+        font-family: Arial,sans-serif;
+        color: #fff;
+        width: 90%; /* Set the width of the positioned div */
+        border-radius: 25px;
+    }
+    span {
+        color:orange;
+    }
+    .name {
+         position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;        
+        text-align: center;
+        top: 80%;
+        font-family: Arial,sans-serif;
+        color: #fff;
+        width: 90%;
+
+    }
